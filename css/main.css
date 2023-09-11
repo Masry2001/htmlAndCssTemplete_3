@@ -4,6 +4,12 @@
     box-sizing: border-box;
 }
 
+::selection {
+    color: #2196f3;
+    background: white;
+}
+
+
 :root {
     --main-color: #2196f3;
     --alt-color: #1787E0;
@@ -1203,6 +1209,11 @@ a {
     top: 0;
     height: 100%;
     background-color: var(--main-color);
+    transition: width 0.3s linear;
+    -webkit-transition: width 0.3s linear;
+    -moz-transition: width 0.3s linear;
+    -ms-transition: width 0.3s linear;
+    -o-transition: width 0.3s linear;
 }
 
 /* end skills  */
