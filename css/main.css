@@ -1369,6 +1369,8 @@ a {
     -ms-transition: var(--transition);
     -o-transition: var(--transition);
     cursor: pointer;
+    width: fit-content;
+
 }
 
 .events .info .time .unit span {
